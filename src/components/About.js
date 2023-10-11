@@ -1,11 +1,14 @@
-import React from 'react'
+import React from 'react';
+import { Link, Element } from 'react-scroll';
+
 
 const About = () => {
   return (
     <>
-      <div className='flex sm:flex-row flex-col-reverse py-9 sm:py-16 sm:px-14 sm:space-x-24 md:px-32 lg:px-48 lg:space-x-48 md:space-x-32'>
+        <Element name="about" className="element">
+        <div className='flex sm:flex-row flex-col-reverse py-9 sm:py-16 sm:px-14 sm:space-x-24 md:px-32 lg:px-48 lg:space-x-48 md:space-x-32'>
         <div>
-        <img className='sm:w-[950px] sm:h-[500px] w-48 m-auto h-48 mt-6' src="/Images/pic.jpg" alt="Image" />
+        <img className='sm:w-[950px] sm:h-[500px] w-72 m-auto h-48 mt-6' src="/Images/pic.jpg" alt="Image" />
 
         </div>
         <div className='px-8'>
@@ -39,6 +42,9 @@ const About = () => {
 
         </div>
       </div>
+        </Element>
+
+     
     </>
   )
 }

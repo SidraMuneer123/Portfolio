@@ -1,8 +1,14 @@
-import React from 'react'
+import React from 'react';
+import { Link, Element } from 'react-scroll';
+
 
 const Home = () => {
   return (
     <>
+
+        <Element name="/" className="element">
+
+
         <div className='lg:px-40 flex space-x-4 space-y-3 sm:flex-row flex-col  py-16 sm:py-20 xl:px-48 xl:space-x-36 lg:space-x-20 md:px-16 sm:px-10'>
         <div className='xl:w-[50%] sm:[30%] py-3 sm:pt-12  px-4 space-y-3'>
         <p className=' text-sm text-gray-500'>THIS IS ME</p>
@@ -22,6 +28,7 @@ const Home = () => {
         
 
         </div>
+        </Element>
 
         {/* <div class="w-[50%] h-6 bg-gray-300 rounded">
         <div class="h-full bg-blue-500 w-[80%]"></div>

@@ -5,6 +5,8 @@ import About from './components/About';
 import Home from './components/Home';
 import Services from './components/Services';
 import Freelancing from './components/Freelancing';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 
 
@@ -12,11 +14,13 @@ import Freelancing from './components/Freelancing';
 const App = () => {
   return (
     <div>
-    <Navbar  />
-    <Home />
+    <Navbar   />
+   <Home />
     <About />
     <Services />
     <Freelancing />
+    <Contact />
+    <Footer />
     
 
       
